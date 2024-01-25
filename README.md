@@ -30,7 +30,7 @@ This is a RESTful API for an online bookstore. The API is built using Express.js
 
 3. Middleware:
 
-- `authenticateUser` middleware ensures that only authenticated users can access certain routes.
+  - `authenticateUser` middleware ensures that only authenticated users can access certain routes.
 
 4. Error Handling:
 
@@ -38,45 +38,45 @@ This is a RESTful API for an online bookstore. The API is built using Express.js
 
 5. Health Check Endpoint:
 
-- `/health` endpoint to check the status of the server and the database.
+  - `/health` endpoint to check the status of the server and the database.
 
 ## Project Structure
 
-- `index.js`: Main entry point for the application.
+  - `index.js`: Main entry point for the application.
 
-- `routes/`: Contains route definitions.
+  - `routes/`: Contains route definitions.
 
-  - `authRoute.js`: Defines routes for user registration and login.
-  - `bookRoute.js`: Defines routes for book-related operations.
+    - `authRoute.js`: Defines routes for user registration and login.
+    - `bookRoute.js`: Defines routes for book-related operations.
 
-- `controllers/`: Contains controller functions for handling requests.
+  - `controllers/`: Contains controller functions for handling requests.
 
-  - `auth.js`: Controller functions for user registration and login.
-  - `books.js`: Controller functions for book-related operations.
+    - `auth.js`: Controller functions for user registration and login.
+    - `books.js`: Controller functions for book-related operations.
 
-- `middleware/`: Contains middleware functions.
+  - `middleware/`: Contains middleware functions.
 
-  - `auth.js`: Middleware for user authentication using JWT.
+    - `auth.js`: Middleware for user authentication using JWT.
 
-- `models/`: Defines Mongoose schemas for User and BookListing.
+  - `models/`: Defines Mongoose schemas for User and BookListing.
 
-- `config/`: Contains configuration files.
+  - `config/`: Contains configuration files.
 
-- `README.md`: Documentation file.
+  - `README.md`: Documentation file.
 
 ## Installation
 
 1. Clone the repository:
 
-`git clone https://github.com/your-username/bookstore-api.git`
+  - `git clone https://github.com/your-username/bookstore-api.git`
 
 2. Navigate to the project directory:
 
-`cd bookstore-api`
+  - `cd bookstore-api`
 
 3. Install dependencies:
 
-`npm install`
+  - `npm install`
 
 4. Create a .env file in the root directory and set your environment variables. You can use the provided .env.example as a template.
 
@@ -84,7 +84,7 @@ This is a RESTful API for an online bookstore. The API is built using Express.js
 
 1. Start the server:
 
-`node server.js`
+  - `node server.js`
 
 2. The server will be running at `http://localhost:your-port`.
 
@@ -94,11 +94,13 @@ This is a RESTful API for an online bookstore. The API is built using Express.js
 
 - The front-end application is a simple HTML-based interface to interact with the API. Open the `https://blue-kyte-ai-assignment-2.vercel.app/` file in a web browser to access the application.
 
+- Th front-end application github repository link is `https://github.com/harsh7231/BlueKyte_AI_Assignment_2`
+
 ## API Documentation
 
 ### Retrieve Books
 
-- `GET /books`: Get a list of all books.
+  - `GET /books`: Get a list of all books.
 
 ### Add a New Book
 
