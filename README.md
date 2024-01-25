@@ -95,7 +95,7 @@ This is a RESTful API for an online bookstore. The API is built using Express.js
 
 - The front-end application is a simple HTML-based interface to interact with the API. Open the `https://blue-kyte-ai-assignment-2.vercel.app/` file in a web browser to access the application.
 
-- Th front-end application github repository link is `https://github.com/harsh7231/BlueKyte_AI_Assignment_2`
+- The front-end application github repository link is `https://github.com/harsh7231/BlueKyte_AI_Assignment_2`
 
 ## API Documentation
 
