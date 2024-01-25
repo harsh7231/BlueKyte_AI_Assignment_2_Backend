@@ -10,6 +10,7 @@ This is a RESTful API for an online bookstore. The API is built using Express.js
 - Project Structure
 - Installation
 - Usage
+- Front-end Application
 - API Documentation
 - Environment Variables
 - Contributing
