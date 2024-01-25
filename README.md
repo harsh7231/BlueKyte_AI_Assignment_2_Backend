@@ -69,11 +69,11 @@ This is a RESTful API for an online bookstore. The API is built using Express.js
 
 1. Clone the repository:
 
-  - `git clone https://github.com/your-username/bookstore-api.git`
+  - `git clone https://github.com/harsh7231/BlueKyte_AI_Assignment_2_Backend.git`
 
 2. Navigate to the project directory:
 
-  - `cd bookstore-api`
+  - `cd BlueKyte_AI_Assignment_2_Backend`
 
 3. Install dependencies:
 
@@ -93,9 +93,9 @@ This is a RESTful API for an online bookstore. The API is built using Express.js
 
 ## Front-end Application
 
-- The front-end application is a simple HTML-based interface to interact with the API. Open the `https://blue-kyte-ai-assignment-2.vercel.app/` file in a web browser to access the application.
+- The front-end application is a simple HTML-based interface to interact with the API. Open the (https://blue-kyte-ai-assignment-2.vercel.app/) file in a web browser to access the application.
 
-- The front-end application github repository link is `https://github.com/harsh7231/BlueKyte_AI_Assignment_2`
+- The front-end application github repository link is (https://github.com/harsh7231/BlueKyte_AI_Assignment_2)
 
 ## API Documentation
 
