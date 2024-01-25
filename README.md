@@ -115,14 +115,14 @@ This is a RESTful API for an online bookstore. The API is built using Express.js
 
 ### Delete a Book
 
-DELETE /books/:id: Delete a specific book.
+  - `DELETE /books/:id`: Delete a specific book.
 
 ### Authentication
 
 - POST /register: Register a new user.
-  - Request Body: { "username": "your-username", "password": "your-password" }
+  - Request Body: `{ "username": "your-username", "password": "your-password" }`
 - POST /login: Login with an existing user.
-  - Request Body: { "username": "your-username", "password": "your-password" }
+  - Request Body: `{ "username": "your-username", "password": "your-password" }`
 
 ### Health Check
 
